@@ -19,3 +19,26 @@ header nav {
     display: flex;
     justify-content: flex-end;
 }
+
+header nav .nav-right-section {
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-right-section a {
+    margin-right: 10px;
+    color: #000;
+}
+
+nav .nav-rigth-section .menu-icon {
+    background-image: url('/images/menu-google.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
